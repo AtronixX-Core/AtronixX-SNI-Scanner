@@ -1,0 +1,7 @@
+# AtronixX-SNI-Scanner uses only the Python 3 standard library — on the
+# server AND on your own computer (probe_client.py). No pip packages.
+#
+# Server (Ubuntu): python3, curl, openssl, unzip  -> installed by install.sh
+# Your computer  : Python 3.8+ only
+# Both sides also download their own private copy of xray-core (GitHub
+# releases) into their own isolated folder on first use.
